@@ -1,0 +1,78 @@
+.cookie-notice {
+  align-items: center;
+  background: #6ca6c4;
+  border-radius: 5px;
+  bottom: 3%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5px;
+  position: fixed;
+  transition: all 2s;
+}
+
+.cookie-notice {
+  right: 82%;
+  margin-right: 1%;
+}
+
+.cookie-notice .cookie-title {
+  color: #fff;
+  text-align: center;
+}
+
+.cookie-notice .cookie-message {
+  margin: 0 1% 0 1%;
+}
+
+.cookie-notice .cookie-message {
+  color: #eee;
+  text-align: justify;
+}
+
+.cookie-notice .cookie-message a {
+  color: #e6de00;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.cookie-notice .button-area {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.cookie-notice .button-area div {
+  padding: 2%;
+}
+
+.cookie-notice .button-area .decline {
+  background: #7a7a7a;
+}
+
+.cookie-notice .button-area .decline:hover {
+  border: 1px solid #ff0000;
+}
+
+.cookie-notice .cookie-button {
+  background: #f9cc5d;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+  transition-duration: 0.5s;
+  width: 100%;
+}
+
+.cookie-notice .cookie-button {
+  margin: 2% 0 2% 0;
+  padding: 5px;
+}
+
+@media screen and (max-width: 1400px) {
+  .cookie-notice {
+    margin: 0 5% 0 5%;
+  }
+}
